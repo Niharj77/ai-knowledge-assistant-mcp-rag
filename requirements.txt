@@ -1,0 +1,1 @@
+fastapi, uvicorn, python-dotenv, openai, langchain, qdrant-client (or another vector DB library), notion-client, @slack/bolt, and github
