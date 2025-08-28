@@ -12,7 +12,7 @@ app = FastAPI(
 
 app.include_router(router)
 
-# You can add a root endpoint for a simple health check
+# You can add a root endpoint for a simple health 
 @app.get("/")
 def read_root():
     return {"message": "AI Knowledge Assistant is up and running!"}
